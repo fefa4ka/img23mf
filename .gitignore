@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.ruff_cache/
+dist/
+build/
+.coverage
+htmlcov/
+.DS_Store
+.env
+.env.*
+*.log
+
+# User input images and generated conversion artifacts stay local.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.3mf
+*.svg
+*.palette.json
